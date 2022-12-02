@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	result := challenges.MostCalories(challenges.CaloriesInput)
+	result := challenges.RockPaperScissorsScore(challenges.RockPaperScissorsInput)
 	fmt.Println(result)
 }
