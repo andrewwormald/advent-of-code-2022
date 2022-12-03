@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	result := challenges.RockPaperScissorsScore(challenges.RockPaperScissorsInput)
+	result := challenges.RuckSackSumOfPriorities(3, challenges.RuckSackInput)
 	fmt.Println(result)
 }
