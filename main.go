@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	result := challenges.RuckSackSumOfPriorities(3, challenges.RuckSackInput)
+	result := challenges.CountPairsOfOverlap(challenges.CampCleanupInput)
 	fmt.Println(result)
 }
