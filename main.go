@@ -1,11 +1,13 @@
 package main
 
 import (
-	"adventOfCode/challenges"
 	"fmt"
+
+	"adventOfCode/challenges"
+	"adventOfCode/inputs"
 )
 
 func main() {
-	result := challenges.CountPairsOfOverlap(challenges.CampCleanupInput)
+	result := challenges.CountPairsOfOverlap(inputs.CampCleanup)
 	fmt.Println(result)
 }
