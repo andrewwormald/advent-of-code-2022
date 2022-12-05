@@ -4,10 +4,9 @@ import (
 	"fmt"
 
 	"adventOfCode/challenges"
-	"adventOfCode/inputs"
 )
 
 func main() {
-	result := challenges.CountPairsOfOverlap(inputs.CampCleanup)
+	result := challenges.SupplyStacksPart1(challenges.SupplyStacks, challenges.SupplyStackMoves)
 	fmt.Println(result)
 }
