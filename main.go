@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	result := challenges.SupplyStacksPart1(challenges.SupplyStacks, challenges.SupplyStackMoves)
+	result := challenges.TuningTrouble(4, challenges.TuningTroubleInput)
 	fmt.Println(result)
 }
