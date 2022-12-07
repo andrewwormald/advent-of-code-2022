@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
-
 	"adventOfCode/challenges"
+	"adventOfCode/inputs"
+	"fmt"
 )
 
 func main() {
-	result := challenges.TuningTrouble(4, challenges.TuningTroubleInput)
-	fmt.Println(result)
+	part1, part2 := challenges.DeviceSpace(inputs.DeviceSpaceInput)
+	fmt.Println(part1, part2)
 }
