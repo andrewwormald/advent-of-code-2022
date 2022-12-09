@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	part1, part2 := challenges.TreeTop(inputs.TreeTop)
-	fmt.Println(part1, part2)
+	res := challenges.RopeBridge(inputs.RopeBridgeInput, 10)
+	fmt.Println(res)
 }
