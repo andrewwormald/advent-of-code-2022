@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := challenges.RopeBridge(inputs.RopeBridgeInput, 10)
+	res := challenges.Cathode(inputs.CathodeInput)
 	fmt.Println(res)
 }
