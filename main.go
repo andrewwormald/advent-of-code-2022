@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := challenges.Cathode(inputs.CathodeInput)
+	res := challenges.MonkeyInTheMiddle(inputs.Monkey, 10000)
 	fmt.Println(res)
 }
