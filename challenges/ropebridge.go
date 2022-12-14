@@ -2,6 +2,7 @@ package challenges
 
 import (
 	"fmt"
+	"math"
 	"strconv"
 	"strings"
 )
@@ -9,6 +10,16 @@ import (
 type position struct {
 	x int
 	y int
+}
+
+func (p *position) EqualTo(p2 position) bool {
+	return p.x == p2.x && p.y == p2.y
+}
+
+func (p *position) DistanceTo(p2 position) int {
+	x := math.Pow(float64(p2.x-p.x), 2)
+	y := math.Pow(float64(p2.y-p.y), 2)
+	return int(math.Sqrt(x + y))
 }
 
 func (p *position) DistanceFrom(p2 position) (xDist int, yDist int) {

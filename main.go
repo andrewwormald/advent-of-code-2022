@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := challenges.MonkeyInTheMiddle(inputs.Monkey, 10000)
+	res := challenges.HillClimbing(inputs.TestHillClimbing)
 	fmt.Println(res)
 }

@@ -14,6 +14,16 @@ func isCapitalised(s string) bool {
 
 var alphabet = "abcdefghijklmnopqrstuvwxyz"
 
+func CharPosition(s string) int {
+	for i, s2 := range strings.Split(alphabet, "") {
+		if s == s2 {
+			return i
+		}
+	}
+
+	return 0
+}
+
 type Item string
 
 func (i Item) Priority() int {
